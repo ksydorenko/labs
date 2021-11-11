@@ -2,7 +2,6 @@ package lab4;
 
 import lab2.controller.UniversityCreator;
 import lab2.model.University;
-import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
