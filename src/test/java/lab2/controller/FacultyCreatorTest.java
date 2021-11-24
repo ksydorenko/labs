@@ -28,6 +28,5 @@ class FacultyCreatorTest {
             }
         }
         System.out.println("Percentage of content at the faculty of chairs with the same name: " + result / count * 100 + "%");
-
-   }
+    }
 }

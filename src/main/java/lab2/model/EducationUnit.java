@@ -19,7 +19,4 @@ public abstract class EducationUnit {
     public void setManager(Human manager) {
         this.manager = manager;
     }
-
-
-
 }

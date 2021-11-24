@@ -3,16 +3,17 @@ package lab2.model;
 import java.util.Objects;
 
 public class Human {
-  private String name;
-  private String surname;
-  private String dateOfBirth;
+    private String name;
+    private String surname;
+    private String dateOfBirth;
 
-  public void setName(String name){
-      this.name=name;
-  }
-  public String getName(){
-      return this.name;
-  }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return this.name;
+    }
 
     public String getSurname() {
         return surname;
@@ -31,12 +32,12 @@ public class Human {
     }
 
     @Override
-    public String toString(){
-      String s;
-      s="\nname:"+this.name;
-      s=s+"\tsurname:"+this.surname;
-      s=s+"\tdata of birth is:"+this.dateOfBirth;
-      return s;
+    public String toString() {
+        String s;
+        s = "\nname:" + this.name;
+        s = s + "\tsurname:" + this.surname;
+        s = s + "\tdata of birth is:" + this.dateOfBirth;
+        return s;
     }
 
     @Override
@@ -51,5 +52,4 @@ public class Human {
     public int hashCode() {
         return Objects.hash(name, surname, dateOfBirth);
     }
-
 }

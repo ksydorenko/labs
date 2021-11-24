@@ -3,7 +3,7 @@ package lab2.model;
 import java.util.List;
 import java.util.Objects;
 
-public class Faculty extends EducationUnit{
+public class Faculty extends EducationUnit {
     private List<Chair> chairs;
 
     public List<Chair> getChairs() {
@@ -29,7 +29,7 @@ public class Faculty extends EducationUnit{
 
     @Override
     public String toString() {
-        return "\nFaculty name is"  + title + '\'' +
+        return "\nFaculty name is" + title + '\'' +
                 ", manager's name is" + manager +
                 ", chairs names are" + chairs +
                 '.';

@@ -13,11 +13,12 @@ public class Group extends EducationUnit {
     public void setStudents(List<Human> students) {
         this.students = students;
     }
+
     @Override
-    public String toString(){
-        return "Group name is" +  title+ "\""+
-                ", manager's name is"+manager+
-                ", students names are"+students +
+    public String toString() {
+        return "Group name is" + title + "\"" +
+                ", manager's name is" + manager +
+                ", students names are" + students +
                 '.';
     }
 
@@ -33,6 +34,4 @@ public class Group extends EducationUnit {
     public int hashCode() {
         return Objects.hash(students);
     }
-
-
 }

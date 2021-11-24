@@ -29,7 +29,7 @@ public class Chair extends EducationUnit {
 
     @Override
     public String toString() {
-        return "\nChair name is" +  title + '\'' +
+        return "\nChair name is" + title + '\'' +
                 ", manager's name is" + manager +
                 ", groups names are" + groups +
                 '.';

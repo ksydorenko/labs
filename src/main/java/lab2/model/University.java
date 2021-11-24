@@ -3,7 +3,7 @@ package lab2.model;
 import java.util.List;
 import java.util.Objects;
 
-public class University extends EducationUnit{
+public class University extends EducationUnit {
     private List<Faculty> faculties;
 
     public List<Faculty> getFaculties() {

@@ -14,6 +14,5 @@ class HumanCreatorTest {
         assertTrue(HumanCreator.DICTIONARY_NAMES.contains(human.getName()));
         assertTrue(HumanCreator.DICTIONARY_SURNAMES.contains(human.getSurname()));
         assertTrue(HumanCreator.DICTIONARY_DAY_OF_BIRTH.contains(human.getDateOfBirth()));
-
     }
 }

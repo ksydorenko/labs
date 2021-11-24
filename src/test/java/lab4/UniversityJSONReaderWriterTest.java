@@ -12,13 +12,9 @@ class UniversityJSONReaderWriterTest {
         UniversityJSONReaderWriter universityJSONReaderWriter = new UniversityJSONReaderWriter();
         UniversityCreator universityCreator = new UniversityCreator();
         University university = universityCreator.createUniversityRandomly();
-        universityJSONReaderWriter.writeToFile(university, "./src/main/resources/lab4.txt" );
+        universityJSONReaderWriter.writeToFile(university, "./src/main/resources/lab4.txt");
         University universityFromFile = universityJSONReaderWriter.readFromFile("./src/main/resources/lab4.txt");
 
-        assertEquals(universityFromFile,university);
+        assertEquals(universityFromFile, university);
     }
-
-
-
-
 }
